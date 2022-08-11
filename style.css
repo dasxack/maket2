@@ -81,20 +81,20 @@ a {
   width: 40px;
   background: #ff3e79;
 }
-.header__item {
+.button__menu {
   margin: auto;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.cross {
-  background-image: url('img/cross.svg');
-}
 .header__logo {
   margin-left: 15px;
   height: 51px;
   width: 98px;
   background-image: url('img/cps.svg');
+}
+.cross {
+  background-image: url('img/cross.svg');
 }
 
 .magnifier {
@@ -217,30 +217,34 @@ a {
   font-size: 24px;
   margin-left: 24px;
 }
-.footer__lang {
+.footer__list {
   margin-top: 25px;
   margin-left: 24px;
   margin-bottom: 32px;
   display: flex;
   flex-direction: row;
   justify-content: start;
+  padding-left: 0px;
 }
-.footer__lang_ru,
-.footer__lang_en,
-.footer__lang_cn {
+.list__lang_ru,
+.list__lang_en,
+.list__lang_ch {
   text-decoration: none;
   background-color: white;
   color: black;
+  list-style: none;
   padding: 0;
-  margin-right: 7px;
+  margin-left: 0px;
+  padding-left: 0px;
   font-size: 16px;
   border: 0;
   cursor: pointer;
+  padding-right: 5px;
 }
-
-.footer__lang button:hover {
+.list__item:focus a {
   color: #7e7e82;
 }
-.footer__lang button:focus {
+
+.footer__list a:hover {
   color: #7e7e82;
 }

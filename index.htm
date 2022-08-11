@@ -13,15 +13,13 @@
         <header class="header">
           <div class="header__container _container">
             <div class="header__left">
-              <button
-                class="header__menu header__item cross item__button"
-              ></button>
-              <div class="header__logo"></div>
+              <button class="button__menu cross item__button"></button>
+              <a href="#" class="header__logo_a">
+                <div class="header__logo"></div>
+              </a>
             </div>
             <div class="header__right">
-              <button
-                class="header__menu header__item magnifier item__button"
-              ></button>
+              <button class="button__menu magnifier item__button"></button>
             </div>
           </div>
         </header>
@@ -47,7 +45,7 @@
                   <li tabindex="7" class="data__item">
                     <a>Наши сервисные центры</a>
                   </li>
-                  <li tabindex="1" class="data__item"><a>Контакты</a></li>
+                  <li tabindex="8" class="data__item"><a>Контакты</a></li>
                 </ul>
               </nav>
               <div class="footer">
@@ -66,11 +64,17 @@
                     >8 800 890 8900</a
                   >
                 </div>
-                <div class="footer__lang">
-                  <button tabindex="8" class="footer__lang_ru">RU</button>
-                  <button tabindex="9" class="footer__lang_ru">EN</button>
-                  <button tabindex="10" class="footer__lang_ru">CH</button>
-                </div>
+                <ul class="footer__list">
+                  <li tabindex="9" class="list__item list__lang_ru">
+                    <a>RU</a>
+                  </li>
+                  <li tabindex="10" class="list__item list__lang_en">
+                    <a>EN</a>
+                  </li>
+                  <li tabindex="11" class="list__item list__lang_ch">
+                    <a>CH</a>
+                  </li>
+                </ul>
               </div>
             </div>
           </section>
